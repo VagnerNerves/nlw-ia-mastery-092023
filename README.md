@@ -2,3 +2,4 @@
 - TawilndCss - https://tailwindcss.com/
 - RadixUi - https://www.radix-ui.com/primitives/docs/overview/introduction
 - Shadcn/ui - https://ui.shadcn.com/docs
+- Lucide React - https://lucide.dev/guide/packages/lucide-react

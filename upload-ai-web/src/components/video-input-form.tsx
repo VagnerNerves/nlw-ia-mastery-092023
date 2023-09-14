@@ -17,7 +17,11 @@ const statusMessages = {
   success: "Sucesso!",
 };
 
-export function VideoInputForm() {
+interface VideoInputFormProps {
+  onVideoUploaded: (id: string) => void;
+}
+
+export function VideoInputForm(props: VideoInputFormProps) {
   const [videoFile, setVideoFile] = useState<File | null>(null);
   const [status, setStatus] = useState<Status>("waiting");
 
@@ -42,9 +46,9 @@ export function VideoInputForm() {
 
     await ffmpeg.writeFile("input.mp4", await fetchFile(video));
 
-    // ffmpeg.on("log", (log) => {
-    //   console.log(log);
-    // });
+    // ffmpeg.on('log', log => {
+    //   console.log(log)
+    // })
 
     ffmpeg.on("progress", (progress) => {
       console.log("Convert progress: " + Math.round(progress.progress * 100));
@@ -105,6 +109,8 @@ export function VideoInputForm() {
     });
 
     setStatus("success");
+
+    props.onVideoUploaded(videoId);
   }
 
   const previewURL = useMemo(() => {

@@ -28,7 +28,11 @@ Developed the video transcription project with AI and requests to OpenAI's AI, a
 
 ## 🎥 Implementation Video
 
-In the GitHub edit, drag the video that it already puts on github itself.
+
+
+
+https://github.com/VagnerNerves/nlw-ia-mastery-092023/assets/40831841/bd212193-ed31-4e67-b5d6-81c5ca21812a
+
 
 <!-- ## 🎨 Layout
 

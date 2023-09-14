@@ -115,9 +115,16 @@ Install with dependencies
 ```
 
 Create the file '.env' following the example in the '.env.example' file.
+
 To create and obtain the OpenAI key, visit https://platform.openai.com/account/api-keys."
 
 Create DB
+
+```bash
+  npx prisma migrate dev
+```
+
+Create data in the prompt table
 
 ```bash
   npx prisma db seed

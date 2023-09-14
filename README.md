@@ -28,11 +28,7 @@ Developed the video transcription project with AI and requests to OpenAI's AI, a
 
 ## 🎥 Implementation Video
 
-
-
-
 https://github.com/VagnerNerves/nlw-ia-mastery-092023/assets/40831841/bd212193-ed31-4e67-b5d6-81c5ca21812a
-
 
 <!-- ## 🎨 Layout
 
@@ -84,7 +80,7 @@ app
 │   . .env                        # Environment variables
 │   . routes.http                 # Executing routes whit Rest Client
 .
-├── upload-ai-web               # Project Back-end
+├── upload-ai-web               # Project Front-end Web
 │   ├── src                       # Source files
 │         ├── components            # Contains all global react components
 │         ├── ffmpeg                # Contains ffmpeg files

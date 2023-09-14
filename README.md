@@ -194,7 +194,7 @@ Start the server
 
 ## 🌎 License
 
-This project is under the MIT license. See the [LICENSE](https://choosealicense.com/licenses/mit/) file for more details.
+This project is under the MIT license. See the [LICENSE](https://github.com/VagnerNerves/nlw-ia-mastery-092023/blob/main/LICENSE) file for more details.
 
 ## ✒ Author
 
